@@ -2,9 +2,12 @@
 #include <string>
 #include "lib.h"
 
+const int NOT_ENOUGH_ARGS = -1;
+
 int main(int argc, char **argv) {
     if (argc < 4) {
         std::cout << "Not enough arguments!";
+        return NOT_ENOUGH_ARGS;
     }
 
     const float a = std::stof(argv[1]);
