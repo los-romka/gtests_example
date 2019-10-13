@@ -1,6 +1,7 @@
 # gtests_example
 
 Как настраивать На Windows 7~:
+
 0. Клонируем этот репозиторий: `git clone https://github.com/los-romka/gtests_example`
 1. Переходим в папку с проектом в Bash `cd gtests_example`.
 2. Клонируем репозиторий googletest: `git clone https://github.com/google/googletest`
