@@ -7,7 +7,7 @@
 2. rm -rf .git
 3. git init
 4. git remote add origin <ссылка на ваш репозиторий>
-5. git push -u origin master
+5. git push -u origin main
 6. Клонируем репозиторий googletest: `git clone https://github.com/google/googletest`
 7. Устанавливаем Cygwin: https://www.cygwin.com/setup-x86_64.exe добавив пакеты make, gcc-core, gcc-g++, gdb.
 8. Открываем прект `gtests_example` в CLion.
